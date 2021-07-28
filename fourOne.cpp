@@ -4,6 +4,7 @@ using namespace std;
 int main()
 {
     int myNumbers [5] = {34, 56, -21, 5002, 365};
+    myNumbers[3] = 2016;
 
     cout << "First element at index 0: " << myNumbers [0] << endl;
     cout << "Second element at index 1: " << myNumbers [1] << endl;
